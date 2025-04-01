@@ -3,7 +3,7 @@
 ### Author: Yuqi Shi
 
 *M.A. in International Economics & Finance, Johns Hopkins SAIS*\
-*B.A. in Economics, with Statistics Minor, University of California, Davis*\
+*B.A. in Economics, with Statistics Minor, University of California Davis*\
 Contact: [yshi103@alumni.jh.edu](mailto\:yshi103@alumni.jh.edu) | [LinkedIn](https://www.linkedin.com/in/yuqi-shi-3728a5200/)
 
 ---
