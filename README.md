@@ -1,37 +1,15 @@
 # Instant Payment Adoption and Bank Behavior
 
-### Author: Yuqi Shi
-
-*M.A. in International Economics & Finance, Johns Hopkins SAIS*\
-*B.A. in Economics, with Statistics Minor, University of California Davis*\
-Contact: [yshi103@alumni.jh.edu](mailto\:yshi103@alumni.jh.edu) | [LinkedIn](https://www.linkedin.com/in/yuqi-shi-3728a5200/)
-
----
-
 ##  Project Overview
 
-This project analyzes how the adoption of instant payment systems in the U.S. banking sector affects liquidity management, deposit composition, and risk-taking behavior among banks. It uses staggered difference-in-differences (DiD) and event study methods to estimate the causal effects of adoption.
-
----
-
-##  Repository Structure
-
-```
-instant-payments-bank-behavior/
-├── Empirical_Writing_Sample.pdf          # Core write-up using Stata-based DiD/event study
-├── Code_Overview_Yuqi.txt               # Summary of analysis steps and methods (now integrated here)
-├── Stata_Code_Sample.do                 # Main empirical code
-├── Policy_Insight_Note.pdf              # Policy insights + summary of findings
-├── /figures                             # Plots exported from Stata
-└── README.md                            # Project description and documentation
-```
+This project empirically analyzes how the adoption of instant payment systems in the U.S. banking sector affects liquidity management, deposit composition, and risk-taking behavior among banks. It uses staggered difference-in-differences (DiD) and event study methods to estimate the causal effects of adoption.
 
 ---
 
 ##  Empirical Strategy
 
 - **Data**: Panel data on U.S. commercial banks’ balance sheets and payment system adoption timelines
-- **Methods**:
+- **Methods**: (Through Stata 17)
   - Panel fixed effects regressions (`xtreg` with clustered SEs)
   - Event study designs with dynamic treatment effects
   - Tests for parallel trends via `coefplot`
@@ -68,17 +46,7 @@ Graphs and tables exported using `outreg2` and `coefplot` can be found in `/figu
 
 ---
 
-##  Tools Used
-
-- Stata 17 (cleaning, modeling, plotting)
-- `xtreg`, `event study dummies`, `coefplot`, `outreg2`
-- Graph export to PNG for visual output
-
----
-
 ##  Contact
-
-For questions or collaboration:
 
 - Yuqi Shi ([yshi103@alumni.jh.edu](mailto\:yshi103@alumni.jh.edu))
 - [LinkedIn](https://www.linkedin.com/in/yuqi-shi-3728a5200/)
