@@ -1,5 +1,5 @@
-cd "C:\Users\shiyq\Desktop\PreDoc\UPenn Predoc Data Analysis\Data_Task_Q2"
-import excel "C:\Users\shiyq\Desktop\PreDoc\UPenn Predoc Data Analysis\Data_Task_Q2\Q2_Bank_Data.xlsx", sheet("in") firstrow
+* Dataset: Confidential data used during Wharton predoc data task (not publicly included)
+
 * Format the data into millions
 foreach var in asset cash govbond deposit deposit_checking deposit_saving deposit_time loan_total loan_AA loan_A loan_B loan_C loan_D loan_E loan_F loan_G loan_H corecapital {
     replace `var' = `var' / 1000000
