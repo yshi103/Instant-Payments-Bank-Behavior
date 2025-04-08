@@ -8,10 +8,10 @@ This project empirically analyzes how the adoption of instant payment systems in
 
 ## Files
 
-- Empirical_Writing_Sample.pdf           # Core write-up using Stata-based DiD/event study
-- instant_payment_code.do                # Main empirical code
-- Policy_Brief_Bank_Instant_Payment_System.pdf              # Policy summary of findings
-- README.md                              # Project description and documentation
+- 'Empirical_Writing_Sample.pdf': Core write-up using Stata-based DiD/event study
+- 'instant_payment_code.do': Main empirical code
+- 'Policy_Brief_Bank_Instant_Payment_System.pdf': Policy summary of findings
+- 'README.md': Project description and documentation
 
 ---
 
